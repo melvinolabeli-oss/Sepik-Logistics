@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" preserveAspectRatio="xMidYMid slice">
+  <title>Illustration of a canoe on the Sepik River at sunrise</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0e3b43"/>
+      <stop offset="0.6" stop-color="#2a7f8a"/>
+      <stop offset="1" stop-color="#e6b05a"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d9a24f"/>
+      <stop offset="0.4" stop-color="#2a7f8a"/>
+      <stop offset="1" stop-color="#0e3b43"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#sky)"/>
+  <circle cx="580" cy="215" r="80" fill="#f6d58a" opacity="0.25"/>
+  <circle cx="580" cy="215" r="40" fill="#f6d58a"/>
+  <path d="M0 240 L90 190 L190 230 L300 180 L420 235 L540 195 L660 235 L800 200
+           L800 265 L0 265 Z" fill="#0b2f36" opacity="0.55"/>
+  <rect x="0" y="255" width="800" height="25" fill="#0b2f36"/>
+  <g fill="#0b2f36">
+    <path d="M60 258 Q64 225 67 210 Q70 225 74 258 Z"/>
+    <path d="M67 212 Q47 214 38 230 Q58 220 67 218 Q76 220 96 230 Q87 214 67 212 Z"/>
+    <path d="M250 258 Q254 220 257 204 Q260 220 264 258 Z"/>
+    <path d="M257 206 Q237 208 228 224 Q248 214 257 212 Q266 214 286 224 Q277 208 257 206 Z"/>
+    <path d="M690 258 Q694 222 697 208 Q700 222 704 258 Z"/>
+    <path d="M697 210 Q677 212 668 228 Q688 218 697 216 Q706 218 726 228 Q717 212 697 210 Z"/>
+  </g>
+  <rect x="0" y="280" width="800" height="120" fill="url(#river)"/>
+  <g fill="none" stroke="#f6d58a" stroke-width="2" stroke-linecap="round" opacity="0.55">
+    <path d="M520 295 Q580 299 640 295"/>
+    <path d="M540 312 Q580 316 620 312"/>
+  </g>
+  <g transform="translate(150 300)">
+    <path d="M0 14 Q70 32 150 14 Q142 26 75 30 Q15 28 0 14 Z" fill="#07242a"/>
+    <path d="M0 14 L-10 6" stroke="#07242a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M150 14 L160 6" stroke="#07242a" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="75" cy="-10" r="7" fill="#07242a"/>
+    <path d="M75 -3 L75 14" stroke="#07242a" stroke-width="7" stroke-linecap="round"/>
+    <path d="M75 4 L112 30" stroke="#07242a" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>
