@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get a quote | Sepik Logistics</title>
+  <meta name="description" content="Request a freight quote from Sepik Logistics.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Sepik Logistics</a>
+      <button class="nav-toggle" type="button" aria-expanded="false"
+        aria-controls="site-nav">Menu</button>
+      <nav aria-label="Main">
+      <ul class="nav-links" id="site-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="routes.html">Routes</a></li>
+        <li><a href="estimator.html">Estimator</a></li>
+        <li><a href="quote.html" aria-current="page">Get a Quote</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-head">
+      <div class="container">
+        <h1>Get a quote</h1>
+        <p>Tell us what you are sending and where it needs to go.</p>
+      </div>
+    </div>
+
+    <section aria-labelledby="quote-title">
+      <div class="container">
+        <h2 id="quote-title">Request a quote</h2>
+        <p>Fields marked with * are required. We reply within one working day.</p>
+
+        <div id="form-status" class="success-message" role="status" aria-live="polite"
+          hidden></div>
+
+        <form id="quote-form" novalidate>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="name">Full name *</label>
+              <input type="text" id="name" name="name" autocomplete="name" required
+                minlength="2" aria-describedby="name-error">
+              <span class="error-message" id="name-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone *</label>
+              <input type="tel" id="phone" name="phone" autocomplete="tel" required
+                aria-describedby="phone-hint phone-error">
+              <span class="hint" id="phone-hint">For example 7123 4567</span>
+              <span class="error-message" id="phone-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" autocomplete="email" required
+                aria-describedby="email-error">
+              <span class="error-message" id="email-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="cargo">Cargo type *</label>
+              <select id="cargo" name="cargo" required aria-describedby="cargo-error">
+                <option value="">Choose a type</option>
+                <option>General goods</option>
+                <option>Food and produce</option>
+                <option>Building materials</option>
+                <option>Fuel and equipment</option>
+                <option>Documents and parcels</option>
+                <option>Passengers with luggage</option>
+              </select>
+              <span class="error-message" id="cargo-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="pickup">Pickup town *</label>
+              <select id="pickup" name="pickup" required aria-describedby="pickup-error">
+                <option value="">Choose a town</option>
+              <option value="Wewak">Wewak</option>
+              <option value="Maprik">Maprik</option>
+              <option value="Pagwi">Pagwi</option>
+              <option value="Angoram">Angoram</option>
+              <option value="Ambunti">Ambunti</option>
+              <option value="Timbunke">Timbunke</option>
+              <option value="Lumi">Lumi</option>
+              <option value="Vanimo">Vanimo</option>
+              <option value="Aitape">Aitape</option>
+              <option value="Kubkain">Kubkain</option>
+              <option value="Madang">Madang</option>
+              <option value="Port Moresby">Port Moresby</option>
+              </select>
+              <span class="error-message" id="pickup-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="destination">Destination town *</label>
+              <select id="destination" name="destination" required
+                aria-describedby="destination-error">
+                <option value="">Choose a town</option>
+              <option value="Wewak">Wewak</option>
+              <option value="Maprik">Maprik</option>
+              <option value="Pagwi">Pagwi</option>
+              <option value="Angoram">Angoram</option>
+              <option value="Ambunti">Ambunti</option>
+              <option value="Timbunke">Timbunke</option>
+              <option value="Lumi">Lumi</option>
+              <option value="Vanimo">Vanimo</option>
+              <option value="Aitape">Aitape</option>
+              <option value="Kubkain">Kubkain</option>
+              <option value="Madang">Madang</option>
+              <option value="Port Moresby">Port Moresby</option>
+              </select>
+              <span class="error-message" id="destination-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="weight">Weight in kg *</label>
+              <input type="number" id="weight" name="weight" min="1" step="any" required
+                aria-describedby="weight-error">
+              <span class="error-message" id="weight-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="date">Preferred date *</label>
+              <input type="date" id="date" name="date" required aria-describedby="date-error">
+              <span class="error-message" id="date-error"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="notes">Delivery notes <span class="hint">(optional)</span></label>
+            <textarea id="notes" name="notes" aria-describedby="notes-error"></textarea>
+            <span class="error-message" id="notes-error"></span>
+          </div>
+
+          <div class="form-group">
+            <div class="checkbox-row">
+              <input type="checkbox" id="consent" name="consent" required
+                aria-describedby="consent-error">
+              <label for="consent">I agree that Sepik Logistics may contact me about this quote.
+                *</label>
+            </div>
+            <span class="error-message" id="consent-error"></span>
+          </div>
+
+          <button type="submit" class="btn">Send quote request</button>
+          <p class="form-note" style="margin-top:1rem">This is a student project. The form
+            checks your details but does not send them to a server. Your draft is saved in this
+            browser until you submit.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <h2>Sepik Logistics</h2>
+        <p>Freight and passenger transport across the Sepik region by road, river, sea and
+          air.</p>
+        <p class="copyright">&copy; <span id="year">2026</span> Sepik Logistics. A student
+          project for IS229 Web Design.</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="routes.html">Routes</a></li>
+          <li><a href="quote.html">Get a quote</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li>Wewak, East Sepik Province</li>
+          <li>Phone: +675 7000 0000</li>
+          <li>Email: info@sepiklogistics.example</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/quote.js"></script>
+</body>
+</html>
