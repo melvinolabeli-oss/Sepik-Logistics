@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Routes | Sepik Logistics</title>
+  <meta name="description" content="Search Sepik Logistics routes by town and transport mode.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Sepik Logistics</a>
+      <button class="nav-toggle" type="button" aria-expanded="false"
+        aria-controls="site-nav">Menu</button>
+      <nav aria-label="Main">
+      <ul class="nav-links" id="site-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="routes.html" aria-current="page">Routes</a></li>
+        <li><a href="estimator.html">Estimator</a></li>
+        <li><a href="quote.html">Get a Quote</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="page-head">
+      <div class="container">
+        <h1>Routes</h1>
+        <p>See where we go, how long it takes and how often.</p>
+      </div>
+    </div>
+
+    <section aria-labelledby="routes-title">
+      <div class="container">
+        <h2 id="routes-title">Find your route</h2>
+        <p class="notice">Distances and journey times are estimates. Confirm details in your
+          quote.</p>
+        <div class="filters" style="margin-top:1.5rem">
+          <div class="form-group">
+            <label for="route-search">Search by town</label>
+            <input type="search" id="route-search" placeholder="For example Wewak or Maprik"
+              autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="route-mode">Transport mode</label>
+            <select id="route-mode">
+              <option value="all">All modes</option>
+              <option value="road">Road</option>
+              <option value="river">River</option>
+              <option value="sea">Sea</option>
+              <option value="air">Air</option>
+            </select>
+          </div>
+        </div>
+        <p class="result-count" id="route-count" aria-live="polite">Loading routes...</p>
+        <div class="card-grid" id="route-list"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>
+        <h2>Sepik Logistics</h2>
+        <p>Freight and passenger transport across the Sepik region by road, river, sea and
+          air.</p>
+        <p class="copyright">&copy; <span id="year">2026</span> Sepik Logistics. A student
+          project for IS229 Web Design.</p>
+      </div>
+      <div>
+        <h2>Pages</h2>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="routes.html">Routes</a></li>
+          <li><a href="quote.html">Get a quote</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li>Wewak, East Sepik Province</li>
+          <li>Phone: +675 7000 0000</li>
+          <li>Email: info@sepiklogistics.example</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/routes.js"></script>
+</body>
+</html>

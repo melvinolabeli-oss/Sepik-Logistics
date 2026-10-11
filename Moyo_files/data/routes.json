@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "from": "Wewak",
+    "to": "Maprik",
+    "mode": "road",
+    "distanceKm": 120,
+    "durationHours": 3,
+    "frequency": "Daily"
+  },
+  {
+    "id": 2,
+    "from": "Wewak",
+    "to": "Pagwi",
+    "mode": "road",
+    "distanceKm": 190,
+    "durationHours": 5,
+    "frequency": "Daily"
+  },
+  {
+    "id": 3,
+    "from": "Wewak",
+    "to": "Angoram",
+    "mode": "road",
+    "distanceKm": 260,
+    "durationHours": 7,
+    "frequency": "3 times a week"
+  },
+  {
+    "id": 4,
+    "from": "Wewak",
+    "to": "Vanimo",
+    "mode": "road",
+    "distanceKm": 320,
+    "durationHours": 8,
+    "frequency": "3 times a week"
+  },
+  {
+    "id": 5,
+    "from": "Wewak",
+    "to": "Lumi",
+    "mode": "road",
+    "distanceKm": 200,
+    "durationHours": 6,
+    "frequency": "Weekly"
+  },
+  {
+    "id": 6,
+    "from": "Pagwi",
+    "to": "Ambunti",
+    "mode": "river",
+    "distanceKm": 100,
+    "durationHours": 8,
+    "frequency": "Twice a week"
+  },
+  {
+    "id": 7,
+    "from": "Angoram",
+    "to": "Ambunti",
+    "mode": "river",
+    "distanceKm": 250,
+    "durationHours": 20,
+    "frequency": "Weekly"
+  },
+  {
+    "id": 8,
+    "from": "Angoram",
+    "to": "Timbunke",
+    "mode": "river",
+    "distanceKm": 60,
+    "durationHours": 5,
+    "frequency": "Twice a week"
+  },
+  {
+    "id": 9,
+    "from": "Ambunti",
+    "to": "Kubkain",
+    "mode": "river",
+    "distanceKm": 70,
+    "durationHours": 6,
+    "frequency": "Weekly"
+  },
+  {
+    "id": 10,
+    "from": "Wewak",
+    "to": "Aitape",
+    "mode": "sea",
+    "distanceKm": 130,
+    "durationHours": 10,
+    "frequency": "Fortnightly"
+  },
+  {
+    "id": 11,
+    "from": "Wewak",
+    "to": "Madang",
+    "mode": "sea",
+    "distanceKm": 380,
+    "durationHours": 30,
+    "frequency": "Fortnightly"
+  },
+  {
+    "id": 12,
+    "from": "Wewak",
+    "to": "Madang",
+    "mode": "air",
+    "distanceKm": 380,
+    "durationHours": 1,
+    "frequency": "Daily"
+  },
+  {
+    "id": 13,
+    "from": "Wewak",
+    "to": "Port Moresby",
+    "mode": "air",
+    "distanceKm": 820,
+    "durationHours": 1.5,
+    "frequency": "Daily"
+  },
+  {
+    "id": 14,
+    "from": "Vanimo",
+    "to": "Port Moresby",
+    "mode": "air",
+    "distanceKm": 900,
+    "durationHours": 2,
+    "frequency": "4 times a week"
+  }
+]
